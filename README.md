@@ -3,7 +3,7 @@
 
 ## Objective
 
-The objective of this project is to create a Django-based web page that allows users to upload an Excel/CSV file. The uploaded file is processed to generate a summary report that groups the data by state and DPD (Days Past Due). The summary report is then displayed on the web page.
+The objective of this project is to create a Django-based web page that allows users to upload an Excel/CSV file. The uploaded file is processed to generate a summary report that groups the data by state and DPD. The summary report is then displayed on the web page.
 
 ## Project Structure
 
