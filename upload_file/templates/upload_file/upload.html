@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Upload the file{% endblock title %}
+{% block content %}
+<div>
+    <h2>Upload the Excel/CSV file</h2>
+    <br /><br /><br />
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %} {{form.as_p}}
+        <button type="submit">Upload</button>
+    </form>
+</div>
+
+{% endblock content %}
